@@ -1,30 +1,22 @@
 package com.example.frauddetection.home
 
 import android.Manifest
-import android.content.BroadcastReceiver
 import android.content.ContentResolver
 import android.content.Context
-import android.content.IntentFilter
 import android.content.pm.PackageManager
 import android.database.Cursor
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.navigation.fragment.findNavController
+import androidx.fragment.app.Fragment
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.example.frauddetection.MainActivity
-import com.example.frauddetection.R
 import com.example.frauddetection.databinding.FragmentFirstBinding
 import com.example.frauddetection.home.model.MessageModel
 import com.example.frauddetection.utils.FraudDetection
-import java.lang.Exception
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
